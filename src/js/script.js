@@ -241,6 +241,7 @@ function initPortfolioAssistant() {
       const skillGroups = [
         [german ? 'Backend & APIs' : 'Backend', skills.backendAndApis],
         ['Cloud & DevOps', skills.cloudDevOpsTesting],
+        [german ? 'KI & Log-Analyse' : 'AI & Log Analysis', skills.aiAndLogAnalysis],
         [german ? 'Programmiersprachen' : 'Languages', skills.languages]
       ].filter(([, items]) => items?.length);
       const groups = skillGroups.map(([label, items]) => `• <strong>${label}</strong>: ${items.map(escapeHtml).join(', ')}`).join('<br>');

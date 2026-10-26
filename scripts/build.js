@@ -84,7 +84,7 @@ function renderHero(data) {
       ` : ''}
       <a href="mailto:${p.email}" class="btn btn-ghost">Get in touch</a>
     </div>
-    <svg class="hero-route" viewBox="0 0 640 180" role="img" aria-label="A girl with long hair and a flowing dress walking across stepping stones">
+    <svg class="hero-route" viewBox="0 0 640 180" role="img" aria-label="A girl with short hair and winter clothes walking across stepping stones">
       <ellipse class="step-stone" style="--step:0" cx="20" cy="166" rx="17" ry="8" transform="rotate(-12 20 166)"/>
       <ellipse class="step-stone" style="--step:1" cx="86" cy="143" rx="16" ry="8" transform="rotate(12 86 143)"/>
       <ellipse class="step-stone" style="--step:2" cx="152" cy="159" rx="17" ry="8" transform="rotate(-10 152 159)"/>
@@ -99,7 +99,6 @@ function renderHero(data) {
         <animateMotion class="walker-travel" dur="10s" repeatCount="indefinite" calcMode="paced" rotate="0" path="M20 166 L86 143 L152 159 L218 132 L284 150 L350 124 L416 141 L482 116 L548 133 L614 109"/>
         <g class="walker">
           <animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0;0 -2;0 0" dur="0.7s" repeatCount="indefinite"/>
-          <path class="walker-hair-long" d="M-7 -71Q-13 -67-12 -56L-14 -35Q-14 -25-10 -17L-5 -22L-5 -49Q-4 -60 0 -63Q5 -60 6 -51L5 -20L11 -16Q15 -25 13 -38L12 -58Q11 -68 6 -71Z"/>
           <path class="walker-leg" d="M-3 -15 Q-7 -8 -10 -2 L-14 0">
             <animateTransform attributeName="transform" type="rotate" values="-24 -3 -15;20 -3 -15;-24 -3 -15" dur="0.7s" repeatCount="indefinite"/>
           </path>
@@ -107,18 +106,19 @@ function renderHero(data) {
             <animateTransform attributeName="transform" type="rotate" values="20 3 -15;-24 3 -15;20 3 -15" dur="0.7s" repeatCount="indefinite"/>
           </path>
           <path class="walker-shoe" d="M-14 0l-5 1m33-1 5 1"/>
-          <path class="walker-arm" d="M-5 -52Q-10 -45-12 -38L-15 -27">
+          <path class="walker-sleeve" d="M-5 -52Q-10 -45-12 -38L-15 -27">
             <animateTransform attributeName="transform" type="rotate" values="18 -5 -52;-18 -5 -52;18 -5 -52" dur="0.7s" repeatCount="indefinite"/>
           </path>
-          <path class="walker-arm" d="M5 -52Q10 -45 12 -38L15 -27">
+          <path class="walker-sleeve" d="M5 -52Q10 -45 12 -38L15 -27">
             <animateTransform attributeName="transform" type="rotate" values="-18 5 -52;18 5 -52;-18 5 -52" dur="0.7s" repeatCount="indefinite"/>
           </path>
-          <path class="walker-dress" d="M-5 -55Q0 -58 5 -55L8 -47L7 -39Q12 -29 16 -15Q0 -12-16 -15Q-12 -29-7 -39L-8 -47Z"/>
-          <path class="walker-dress-panel" d="M-2 -38L-8 -16M2 -38L8 -16M-7 -39Q0 -36 7 -39"/>
+          <path class="walker-coat" d="M-5 -55Q0 -58 5 -55L8 -49L7 -42Q11 -31 14 -15Q0 -12-14 -15Q-11 -31-7 -42L-8 -49Z"/>
+          <path class="walker-coat-detail" d="M-5 -52L0 -46L5 -52M0 -46V-16M-7 -39Q0 -36 7 -39"/>
+          <path class="walker-scarf" d="M-4 -59L4 -59L3 -49L7 -39L2 -37L0 -44L-2 -37L-7 -39L-3 -49Z"/>
+          <path class="walker-glove" d="M-15 -27l-2 2m17-2 2 2"/>
           <path class="walker-neck" d="M-2 -62v6h4v-6"/>
           <ellipse class="walker-head" cx="0" cy="-69" rx="6.5" ry="7.5"/>
-          <path class="walker-hair-cap" d="M-7 -68Q-8 -77 0 -78Q8 -77 7 -68L5 -64Q4 -69 1 -70Q-2 -67-5 -64Z"/>
-          <path class="walker-hair-detail" d="M-10 -58Q-11 -42-8 -29M10 -58Q11 -43 9 -28"/>
+          <path class="walker-hair-short" d="M-7 -68Q-9 -78 0 -79Q9 -78 7 -68L6 -62Q3 -64 2 -67L-1 -64L-5 -65L-7 -62Z"/>
           <circle class="walker-eye" cx="3" cy="-69" r="0.7"/>
         </g>
       </g>
@@ -485,6 +485,7 @@ if (fs.existsSync(kbPath)) {
 - **Languages**: ${(skills.languages || []).join(', ')}
 - **Backend & APIs**: ${(skills.backendAndApis || []).join(', ')}
 - **Cloud, DevOps & Testing**: ${(skills.cloudDevOpsTesting || []).join(', ')}
+- **AI & Log Analysis**: ${(skills.aiAndLogAnalysis || []).join(', ')}
 
 ## Featured Projects
 ${projects.map(proj => `### ${proj.name}

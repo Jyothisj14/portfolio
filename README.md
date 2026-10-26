@@ -43,4 +43,4 @@ python3 -m http.server 8000
 └── 404.html
 ```
 
-The public portfolio URL configured for canonical metadata and sitemap output is `https://jyothisj14.github.io/my-portfolio/`.
+The public portfolio URL configured for canonical metadata and sitemap output is `https://jyothisj14.github.io/portfolio/`.

@@ -1,4 +1,4 @@
 # Last updated: 2026-10-26T15:51:15.369Z
 User-agent: *
 Allow: /
-Sitemap: https://jyothisj14.github.io/my-portfolio/sitemap.xml
+Sitemap: https://jyothisj14.github.io/portfolio/sitemap.xml

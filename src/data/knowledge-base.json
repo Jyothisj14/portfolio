@@ -8,9 +8,9 @@
   "contact": {
     "email": "jyothisjayanna@gmail.com",
     "phone": "+49 15511554589",
-    "linkedin": "https://linkedin.com/in/jyothi-s-jayanna",
+    "linkedin": "https://www.linkedin.com/in/jyothi-s-jayanna-bba04a199/",
     "github": "https://github.com/Jyothisj14",
-    "portfolio": "https://jyothisj14.github.io/my-portfolio/"
+    "portfolio": "https://jyothisj14.github.io/portfolio/"
   },
   "education": {
     "degree": "M.Sc. Web Engineering",
@@ -96,6 +96,12 @@
       "Pytest",
       "Selenium",
       "Linux"
+    ],
+    "aiAndLogAnalysis": [
+      "Ollama",
+      "Local LLM integration",
+      "Language-agnostic log analysis",
+      "Root-cause analysis"
     ]
   },
   "projects": [
@@ -114,6 +120,15 @@
     {
       "name": "Campus Canteen",
       "description": "Serverless canteen operations web application with an HTML, CSS, and JavaScript frontend and Azure Functions backend."
+    },
+    {
+      "name": "LogLens: AI-Powered Log Diagnosis & Learning",
+      "description": "A completed, language-agnostic log analysis tool for logs from any programming language or technology stack. LogLens identifies likely root causes, explains what went wrong, and provides practical solutions alongside relevant videos and links to help anyone understand and learn from the issue. It combines rule-based detection with a local Ollama LLM; logs stay on-device and secrets are redacted before analysis.",
+      "highlights": [
+        "Analyzes logs across programming languages and technology stacks to identify likely root causes.",
+        "Explains what went wrong and provides practical solutions, relevant videos, and links for further learning.",
+        "Uses a local Ollama LLM and rule-based detection; redacts secrets and keeps logs on the user's machine."
+      ]
     }
   ],
   "certifications": [

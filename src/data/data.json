@@ -15,9 +15,9 @@
     "email": "jyothisjayanna@gmail.com",
     "phone": "+49 15511554589",
     "phoneRaw": "+4915511554589",
-    "linkedin": "https://linkedin.com/in/jyothi-s-jayanna",
+    "linkedin": "https://www.linkedin.com/in/jyothi-s-jayanna-bba04a199/",
     "github": "https://github.com/Jyothisj14",
-    "siteUrl": "https://jyothisj14.github.io/my-portfolio/"
+    "siteUrl": "https://jyothisj14.github.io/portfolio/"
   },
   "about": {
     "eyebrow": "About me",
@@ -161,6 +161,15 @@
           "Miro",
           "Agile & Scrum"
         ]
+      },
+      {
+        "name": "AI & Log Analysis",
+        "items": [
+          "Ollama",
+          "Local LLM integration",
+          "Language-agnostic log analysis",
+          "Root-cause analysis"
+        ]
       }
     ]
   },
@@ -197,6 +206,19 @@
           "CSS",
           "JavaScript",
           "Azure Functions"
+        ]
+      },
+      {
+        "title": "LogLens: AI-Powered Log Diagnosis & Learning",
+        "description": "A completed, language-agnostic log analysis tool for logs from any programming language or technology stack. LogLens identifies likely root causes, explains what went wrong, and provides practical solutions alongside relevant videos and links to help anyone understand and learn from the issue. It combines rule-based detection with a local Ollama LLM; logs stay on-device and secrets are redacted before analysis.",
+        "tags": [
+          "Language-agnostic log analysis",
+          "Root-cause analysis",
+          "Learning resources",
+          "Ollama",
+          "Docker",
+          "GitHub Actions",
+          "Local LLMs"
         ]
       }
     ]

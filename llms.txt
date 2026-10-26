@@ -9,12 +9,13 @@
 - **Education**: M.Sc. Web Engineering, Technische Universität Chemnitz
 - **Email**: jyothisjayanna@gmail.com
 - **Phone**: +49 15511554589
-- **Links**: [LinkedIn](https://linkedin.com/in/jyothi-s-jayanna) | [GitHub](https://github.com/Jyothisj14) | [Portfolio](https://jyothisj14.github.io/my-portfolio/)
+- **Links**: [LinkedIn](https://www.linkedin.com/in/jyothi-s-jayanna-bba04a199/) | [GitHub](https://github.com/Jyothisj14) | [Portfolio](https://jyothisj14.github.io/portfolio/)
 
 ## Core Technical Skills
 - **Languages**: Java, Python, JavaScript
 - **Backend & APIs**: Spring Boot, REST APIs, Temporal, Kafka, PostgreSQL
 - **Cloud, DevOps & Testing**: Microsoft Azure, Kubernetes, Docker, Helm, Flux, Harbor, GitHub Actions, Azure DevOps, CI/CD, Grafana, Prometheus, Loki, SonarQube, JUnit, Mockito, Pytest, Selenium, Linux
+- **AI & Log Analysis**: Ollama, Local LLM integration, language-agnostic log analysis, root-cause analysis
 
 ## Featured Projects
 ### GitHub Integration API
@@ -29,6 +30,10 @@
 
 ### Campus Canteen
 - **Description**: Serverless canteen operations web application with an HTML, CSS, and JavaScript frontend and Azure Functions backend.
+- **Links**: N/A
+
+### LogLens: AI-Powered Log Diagnosis & Learning
+- **Description**: A completed, language-agnostic log analysis tool for logs from any programming language or technology stack. LogLens identifies likely root causes, explains what went wrong, and provides practical solutions alongside relevant videos and links to help anyone understand and learn from the issue. It combines rule-based detection with a local Ollama LLM; logs stay on-device and secrets are redacted before analysis.
 - **Links**: N/A
 
 ## Professional Experience

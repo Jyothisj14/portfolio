@@ -1,0 +1,19 @@
+{
+  "name": "jyothi-jayanna-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio of Jyothi Siddalingappa Jayanna, Platform and DevOps Engineer",
+  "main": "script.js",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "keywords": [
+    "portfolio",
+    "ssg",
+    "developer",
+    "platform-engineering",
+    "devops",
+    "kubernetes"
+  ],
+  "author": "Jyothi Siddalingappa Jayanna",
+  "license": "MIT"
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 — Page Not Found | Jyothi Siddalingappa Jayanna</title>
+<meta name="description" content="The page you are looking for does not exist. Return to Jyothi Siddalingappa Jayanna's portfolio.">
+<link rel="icon" type="image/svg+xml" href="/my-portfolio/assets/favicon.svg">
+<link rel="apple-touch-icon" href="/my-portfolio/assets/favicon.svg">
+<link rel="stylesheet" href="/my-portfolio/src/css/styles.css">
+<style>
+  .error-container {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 32px 24px;
+  }
+  .error-code {
+    font-family: var(--font-mono);
+    font-size: clamp(4rem, 12vw, 8rem);
+    font-weight: 700;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 12px;
+  }
+  .error-title {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    margin-bottom: 16px;
+  }
+  .error-desc {
+    color: var(--ink-muted);
+    max-width: 440px;
+    margin-bottom: 32px;
+  }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="https://jyothisj14.github.io/my-portfolio/" class="logo"><span class="logo-mark">JSJ</span> Jyothi Siddalingappa Jayanna</a>
+  </div>
+</header>
+
+<main class="error-container">
+  <div class="error-code">404</div>
+  <h1 class="error-title">Page not found</h1>
+  <p class="error-desc">Sorry, the page you're looking for doesn't exist or has been moved.</p>
+  <a href="https://jyothisj14.github.io/my-portfolio/" class="btn btn-primary">Return to Portfolio</a>
+</main>
+
+<footer>
+  &copy; <span id="year">2026</span> Jyothi Siddalingappa Jayanna. All rights reserved.
+</footer>
+
+<script>
+  const storedTheme = localStorage.getItem('portfolio-theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  document.documentElement.setAttribute('data-theme', storedTheme || (prefersDark ? 'dark' : 'light'));
+</script>
+</body>
+</html>

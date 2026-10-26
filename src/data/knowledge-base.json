@@ -1,0 +1,166 @@
+{
+  "profile": {
+    "name": "Jyothi Siddalingappa Jayanna",
+    "title": "Platform and DevOps Engineer",
+    "location": "Chemnitz, Germany",
+    "summary": "M.Sc. Web Engineering student at TU Chemnitz with 3+ years of professional experience as a Platform and DevOps Engineer at A.P. Moller–Maersk. Experienced in Java and Spring Boot backend development, Temporal workflows, Kubernetes on Azure, and CI/CD automation. Internal platform tooling she contributed to is used by 8,000+ engineers. Immediately available for a working student role in DevOps, cloud, or backend engineering, up to 20 hours per week during the semester."
+  },
+  "contact": {
+    "email": "jyothisjayanna@gmail.com",
+    "phone": "+49 15511554589",
+    "linkedin": "https://linkedin.com/in/jyothi-s-jayanna",
+    "github": "https://github.com/Jyothisj14",
+    "portfolio": "https://jyothisj14.github.io/my-portfolio/"
+  },
+  "education": {
+    "degree": "M.Sc. Web Engineering",
+    "institution": "Technische Universität Chemnitz",
+    "graduated": "In progress, since October 2026"
+  },
+  "experience": [
+    {
+      "company": "A.P. Moller–Maersk",
+      "role": "Platform Engineer, Internal Developer Platform team",
+      "location": "Bengaluru, India",
+      "period": "Apr 2025 – Sep 2026",
+      "highlights": [
+        "Built Java, Spring Boot, and Temporal backend workflows for deployment validation and service onboarding on an internal platform used by 8,000+ engineers.",
+        "Built a Temporal deletion workflow that removes service integrations, associated data, and Kubernetes resources.",
+        "Developed Application Catalog and GitHub integrations for service registration, repository creation, custom properties, and CI setup.",
+        "Co-maintained team synchronization across Azure, GitHub, and the organization’s team space.",
+        "Automated CI/CD scaffolding and troubleshot Azure Kubernetes clusters, Helm, and rollouts."
+      ]
+    },
+    {
+      "company": "A.P. Moller–Maersk",
+      "role": "Associate DevOps Engineer",
+      "location": "Bengaluru, India",
+      "period": "Sep 2023 – Mar 2025",
+      "highlights": [
+        "Co-maintained Azure DevOps and GitHub Actions pipelines with Docker and Kubernetes.",
+        "Supported Harbor and SonarQube deployments and operations on Kubernetes.",
+        "Created an ARM-based GitHub self-hosted runner and partnered on a migration from Azure DevOps to GitHub.",
+        "Resolved 1,000+ Level 2/3 incidents, wrote Python automation, and ran onboarding sessions twice monthly.",
+        "Received the Maersk SPOT Award."
+      ]
+    },
+    {
+      "company": "A.P. Moller–Maersk",
+      "role": "DevOps Engineer Intern",
+      "location": "Bengaluru, India",
+      "period": "Feb 2023 – Sep 2023",
+      "highlights": [
+        "Assisted with CI/CD, deployments, monitoring checks, and production incident triage using Docker, Kubernetes, and Azure DevOps."
+      ]
+    },
+    {
+      "company": "Microsoft",
+      "role": "Beta Microsoft Learn Student Ambassador",
+      "location": "Bengaluru, India",
+      "period": "Aug 2021 – May 2024",
+      "highlights": [
+        "Advanced from Alpha to Beta milestone and conducted 15+ technical workshops on Java, web development, and cloud computing.",
+        "Completed hands-on Azure assignments and received the Best Mentor award."
+      ]
+    }
+  ],
+  "skills": {
+    "languages": [
+      "Java",
+      "Python",
+      "JavaScript"
+    ],
+    "backendAndApis": [
+      "Spring Boot",
+      "REST APIs",
+      "Temporal",
+      "Kafka",
+      "PostgreSQL"
+    ],
+    "cloudDevOpsTesting": [
+      "Microsoft Azure",
+      "Kubernetes",
+      "Docker",
+      "Helm",
+      "Flux",
+      "Harbor",
+      "GitHub Actions",
+      "Azure DevOps",
+      "CI/CD",
+      "Grafana",
+      "Prometheus",
+      "Loki",
+      "SonarQube",
+      "JUnit",
+      "Mockito",
+      "Pytest",
+      "Selenium",
+      "Linux"
+    ]
+  },
+  "projects": [
+    {
+      "name": "GitHub Integration API",
+      "description": "Backend service that aggregates GitHub data through GraphQL and REST APIs to visualize contributor activity and repository statistics.",
+      "highlights": [
+        "Built an API using Java and Spring Boot.",
+        "Combined GraphQL and REST data to present contributor activity and repository statistics."
+      ]
+    },
+    {
+      "name": "Tokenisation of Real Estate",
+      "description": "Blockchain-based platform for fractional real-estate ownership using Ethereum, MetaMask, and IPFS."
+    },
+    {
+      "name": "Campus Canteen",
+      "description": "Serverless canteen operations web application with an HTML, CSS, and JavaScript frontend and Azure Functions backend."
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Certified Kubernetes Application Developer (CKAD)",
+      "issuer": "Cloud Native Computing Foundation"
+    },
+    {
+      "title": "Azure Administrator (AZ-104)",
+      "issuer": "Microsoft"
+    },
+    {
+      "title": "Azure AI Fundamentals (AI-900)",
+      "issuer": "Microsoft"
+    },
+    {
+      "title": "Azure Fundamentals (AZ-900)",
+      "issuer": "Microsoft"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "SPOT Award",
+      "issuer": "A.P. Moller–Maersk",
+      "description": "Recognition for contributions to platform and DevOps engineering."
+    },
+    {
+      "title": "Beta Microsoft Learn Student Ambassador",
+      "issuer": "Microsoft",
+      "description": "Advanced from Alpha to Beta milestone and conducted 15+ technical workshops."
+    },
+    {
+      "title": "Best Mentor Award",
+      "issuer": "Microsoft Learn Student Ambassador program",
+      "description": "Recognition for mentoring and supporting fellow students."
+    },
+    {
+      "title": "Digital Tech Knight Award",
+      "issuer": "Cognizant Digital Nurture 2.0",
+      "description": "Recognition received during the Java and Spring Boot skill development program."
+    }
+  ],
+  "languages": [
+    "Kannada",
+    "English",
+    "Hindi",
+    "Telugu",
+    "German (A2, in progress)"
+  ]
+}

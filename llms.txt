@@ -1,0 +1,69 @@
+# Jyothi Siddalingappa Jayanna — Platform and DevOps Engineer
+
+> M.Sc. Web Engineering student at TU Chemnitz with 3+ years of professional experience as a Platform and DevOps Engineer at A.P. Moller–Maersk. Experienced in Java and Spring Boot backend development, Temporal workflows, Kubernetes on Azure, and CI/CD automation. Internal platform tooling she contributed to is used by 8,000+ engineers. Immediately available for a working student role in DevOps, cloud, or backend engineering, up to 20 hours per week during the semester.
+
+## Summary & Contact
+- **Name**: Jyothi Siddalingappa Jayanna
+- **Title**: Platform and DevOps Engineer
+- **Location**: Chemnitz, Germany
+- **Education**: M.Sc. Web Engineering, Technische Universität Chemnitz
+- **Email**: jyothisjayanna@gmail.com
+- **Phone**: +49 15511554589
+- **Links**: [LinkedIn](https://linkedin.com/in/jyothi-s-jayanna) | [GitHub](https://github.com/Jyothisj14) | [Portfolio](https://jyothisj14.github.io/my-portfolio/)
+
+## Core Technical Skills
+- **Languages**: Java, Python, JavaScript
+- **Backend & APIs**: Spring Boot, REST APIs, Temporal, Kafka, PostgreSQL
+- **Cloud, DevOps & Testing**: Microsoft Azure, Kubernetes, Docker, Helm, Flux, Harbor, GitHub Actions, Azure DevOps, CI/CD, Grafana, Prometheus, Loki, SonarQube, JUnit, Mockito, Pytest, Selenium, Linux
+
+## Featured Projects
+### GitHub Integration API
+- **Description**: Backend service that aggregates GitHub data through GraphQL and REST APIs to visualize contributor activity and repository statistics.
+- Built an API using Java and Spring Boot.
+- Combined GraphQL and REST data to present contributor activity and repository statistics.
+- **Links**: N/A
+
+### Tokenisation of Real Estate
+- **Description**: Blockchain-based platform for fractional real-estate ownership using Ethereum, MetaMask, and IPFS.
+- **Links**: N/A
+
+### Campus Canteen
+- **Description**: Serverless canteen operations web application with an HTML, CSS, and JavaScript frontend and Azure Functions backend.
+- **Links**: N/A
+
+## Professional Experience
+### Platform Engineer, Internal Developer Platform team — A.P. Moller–Maersk (Apr 2025 – Sep 2026 | Bengaluru, India)
+- Built Java, Spring Boot, and Temporal backend workflows for deployment validation and service onboarding on an internal platform used by 8,000+ engineers.
+- Built a Temporal deletion workflow that removes service integrations, associated data, and Kubernetes resources.
+- Developed Application Catalog and GitHub integrations for service registration, repository creation, custom properties, and CI setup.
+- Co-maintained team synchronization across Azure, GitHub, and the organization’s team space.
+- Automated CI/CD scaffolding and troubleshot Azure Kubernetes clusters, Helm, and rollouts.
+
+### Associate DevOps Engineer — A.P. Moller–Maersk (Sep 2023 – Mar 2025 | Bengaluru, India)
+- Co-maintained Azure DevOps and GitHub Actions pipelines with Docker and Kubernetes.
+- Supported Harbor and SonarQube deployments and operations on Kubernetes.
+- Created an ARM-based GitHub self-hosted runner and partnered on a migration from Azure DevOps to GitHub.
+- Resolved 1,000+ Level 2/3 incidents, wrote Python automation, and ran onboarding sessions twice monthly.
+- Received the Maersk SPOT Award.
+
+### DevOps Engineer Intern — A.P. Moller–Maersk (Feb 2023 – Sep 2023 | Bengaluru, India)
+- Assisted with CI/CD, deployments, monitoring checks, and production incident triage using Docker, Kubernetes, and Azure DevOps.
+
+### Beta Microsoft Learn Student Ambassador — Microsoft (Aug 2021 – May 2024 | Bengaluru, India)
+- Advanced from Alpha to Beta milestone and conducted 15+ technical workshops on Java, web development, and cloud computing.
+- Completed hands-on Azure assignments and received the Best Mentor award.
+
+## Certifications
+- **Certified Kubernetes Application Developer (CKAD)** (Cloud Native Computing Foundation)
+- **Azure Administrator (AZ-104)** (Microsoft)
+- **Azure AI Fundamentals (AI-900)** (Microsoft)
+- **Azure Fundamentals (AZ-900)** (Microsoft)
+
+## Achievements
+- **SPOT Award** (A.P. Moller–Maersk): Recognition for contributions to platform and DevOps engineering.
+- **Beta Microsoft Learn Student Ambassador** (Microsoft): Advanced from Alpha to Beta milestone and conducted 15+ technical workshops.
+- **Best Mentor Award** (Microsoft Learn Student Ambassador program): Recognition for mentoring and supporting fellow students.
+- **Digital Tech Knight Award** (Cognizant Digital Nurture 2.0): Recognition received during the Java and Spring Boot skill development program.
+
+## Languages
+Kannada, English, Hindi, Telugu, German (A2, in progress)

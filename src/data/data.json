@@ -1,0 +1,273 @@
+{
+  "profile": {
+    "name": "Jyothi Siddalingappa Jayanna",
+    "initials": "JSJ",
+    "title": "Platform & DevOps Engineer",
+    "location": "Chemnitz, Germany",
+    "metaDescription": "Jyothi Siddalingappa Jayanna is a platform and DevOps engineer in Chemnitz, studying Web Engineering and experienced with Kubernetes, Azure, Java, and Spring Boot.",
+    "status": "Immediately available for Werkstudent roles · up to 20 hours/week",
+    "eyebrow": "Platform & DevOps Engineer · Chemnitz, Germany",
+    "heroHeadline": "Jyothi Siddalingappa Jayanna",
+    "heroRole": "Building reliable platforms, cloud infrastructure, and backend services.",
+    "heroSub": "M.Sc. Web Engineering student at TU Chemnitz with <strong>3+ years of experience</strong> at A.P. Moller–Maersk. I build with <strong>Java, Spring Boot, Kubernetes, and Azure</strong>, and have delivered internal platform tooling used by <strong>8,000+ engineers</strong>.",
+    "photo": "assets/Jyothi.JPG",
+    "resume": "assets/Jyothi_SJ_CV.pdf",
+    "email": "jyothisjayanna@gmail.com",
+    "phone": "+49 15511554589",
+    "phoneRaw": "+4915511554589",
+    "linkedin": "https://linkedin.com/in/jyothi-s-jayanna",
+    "github": "https://github.com/Jyothisj14",
+    "siteUrl": "https://jyothisj14.github.io/my-portfolio/"
+  },
+  "about": {
+    "eyebrow": "About me",
+    "paragraphs": [
+      "I’m a platform and DevOps engineer with more than three years of professional experience building backend workflows and developer tooling at A.P. Moller–Maersk. My work spans Java and Spring Boot services, Temporal workflows, Kubernetes on Azure, and CI/CD automation.",
+      "I’m currently pursuing an M.Sc. in Web Engineering at TU Chemnitz. I enjoy making complex engineering workflows easier for teams, supporting production systems, and helping engineers get started with confidence."
+    ],
+    "stats": [
+      {
+        "value": "8,000+",
+        "label": "Engineers using platform tooling"
+      },
+      {
+        "value": "15+",
+        "label": "Technical workshops conducted"
+      },
+      {
+        "value": "3+",
+        "label": "Years in platform & DevOps"
+      }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Experience",
+    "title": "Platform engineering grounded in production experience.",
+    "subtitle": "From building workflows and integrations for an internal developer platform to sharing cloud and software engineering knowledge through workshops.",
+    "jobs": [
+      {
+        "role": "Platform Engineer · Internal Developer Platform",
+        "company": "A.P. Moller–Maersk · Bengaluru, India",
+        "date": "Apr 2025 — Sep 2026",
+        "highlights": [
+          "Built Java, Spring Boot, and Temporal backend workflows for deployment validation and service onboarding on an internal platform used by 8,000+ engineers.",
+          "Independently delivered a Temporal deletion workflow in one month to remove service integrations, associated data, and Kubernetes resources.",
+          "Built a Maersk Application Catalog integration to register services and a GitHub integration that creates repositories, applies custom properties, and configures CI from templates.",
+          "Co-maintained MTTS, synchronizing teams across Azure, GitHub, and the organization’s team space.",
+          "Automated CI/CD pipeline scaffolding and operated Azure Kubernetes clusters, troubleshooting Helm releases and rollouts."
+        ]
+      },
+      {
+        "role": "Associate DevOps Engineer",
+        "company": "A.P. Moller–Maersk · Bengaluru, India",
+        "date": "Sep 2023 — Mar 2025",
+        "highlights": [
+          "Co-maintained CI/CD pipelines with Azure DevOps, GitHub Actions, Docker, and Kubernetes.",
+          "Supported deployment, upgrades, maintenance, and day-to-day operation of Harbor and SonarQube in Kubernetes clusters.",
+          "Created an ARM-based GitHub self-hosted runner and partnered on the organization’s migration from Azure DevOps to GitHub.",
+          "Resolved 1,000+ Level 2/3 incidents, wrote Python automation for operations and integration testing, and received the Maersk SPOT Award.",
+          "Led onboarding sessions twice a month for new team members."
+        ]
+      },
+      {
+        "role": "DevOps Engineer Intern",
+        "company": "A.P. Moller–Maersk · Bengaluru, India",
+        "date": "Feb 2023 — Sep 2023",
+        "highlights": [
+          "Supported CI/CD pipelines, deployments, monitoring checks, and production incident triage using Docker, Kubernetes, and Azure DevOps."
+        ]
+      },
+      {
+        "role": "Microsoft Learn Student Ambassador",
+        "company": "Microsoft · Bengaluru, India",
+        "date": "Aug 2021 — May 2024",
+        "highlights": [
+          "Advanced from Alpha to Beta milestone and conducted 15+ technical workshops on Java, web development, and cloud computing.",
+          "Completed hands-on Azure assignments and received the Best Mentor award."
+        ]
+      },
+      {
+        "role": "Digital Nurture 2.0 Certified Skill Development Trainee",
+        "company": "Cognizant · Bengaluru, India",
+        "date": "Mar 2022 — Jun 2022",
+        "highlights": [
+          "Completed Java and Spring Boot assignments focused on object-oriented design and received the Digital Tech Knight award."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "Tools I use to build and operate platforms.",
+    "subtitle": "A practical mix of backend engineering, cloud infrastructure, automation, and production operations.",
+    "categories": [
+      {
+        "name": "Backend & Programming",
+        "items": [
+          "Java",
+          "Spring Boot",
+          "REST APIs",
+          "Temporal",
+          "Kafka",
+          "Python automation",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "name": "Cloud & Containers",
+        "items": [
+          "Microsoft Azure",
+          "Kubernetes",
+          "Docker",
+          "Helm",
+          "Flux",
+          "Harbor",
+          "Nexus"
+        ]
+      },
+      {
+        "name": "CI/CD & Platform",
+        "items": [
+          "GitHub Actions",
+          "Azure DevOps",
+          "CI/CD automation",
+          "Internal developer platforms",
+          "Git",
+          "Linux"
+        ]
+      },
+      {
+        "name": "Monitoring & Testing",
+        "items": [
+          "Grafana",
+          "Prometheus",
+          "Loki",
+          "SonarQube",
+          "JUnit",
+          "Mockito",
+          "Pytest",
+          "Selenium"
+        ]
+      },
+      {
+        "name": "Web, Tools & Collaboration",
+        "items": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "macOS",
+          "Jira",
+          "Confluence",
+          "Miro",
+          "Agile & Scrum"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "title": "Selected engineering projects.",
+    "subtitle": "Backend, cloud, and web projects that bring together reliable services and useful user experiences.",
+    "items": [
+      {
+        "title": "GitHub Integration API",
+        "description": "Backend service that aggregates GitHub data through GraphQL and REST APIs to visualize contributor activity and repository statistics.",
+        "tags": [
+          "Java",
+          "Spring Boot",
+          "GraphQL",
+          "REST APIs"
+        ]
+      },
+      {
+        "title": "Tokenisation of Real Estate",
+        "description": "Blockchain-based platform for fractional real-estate ownership, using Ethereum for ownership records, MetaMask for wallet interactions, and IPFS for decentralized storage.",
+        "tags": [
+          "Ethereum",
+          "MetaMask",
+          "IPFS",
+          "Web3"
+        ]
+      },
+      {
+        "title": "Campus Canteen",
+        "description": "Serverless web application for college canteen operations, with a browser-based interface and Azure Functions backend.",
+        "tags": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Azure Functions"
+        ]
+      }
+    ]
+  },
+  "background": {
+    "eyebrow": "Education & recognition",
+    "title": "Learning, certifications, and recognition.",
+    "languages": [
+      "Kannada",
+      "English",
+      "Hindi",
+      "Telugu",
+      "German (A2, in progress)"
+    ],
+    "education": [
+      {
+        "degree": "M.Sc. Web Engineering",
+        "institution": "Technische Universität Chemnitz · Chemnitz, Germany",
+        "period": "Oct 2026 — Present"
+      },
+      {
+        "degree": "B.E. Electronics and Communication Engineering",
+        "institution": "Visvesvaraya Technological University · Bengaluru, India",
+        "grade": "CGPA: 8.42 / 10",
+        "period": "Aug 2019 — May 2023"
+      }
+    ],
+    "certifications": [
+      {
+        "title": "Certified Kubernetes Application Developer",
+        "issuer": "Cloud Native Computing Foundation"
+      },
+      {
+        "title": "Azure Administrator Associate · AZ-104",
+        "issuer": "Microsoft"
+      },
+      {
+        "title": "Azure AI Fundamentals · AI-900",
+        "issuer": "Microsoft"
+      },
+      {
+        "title": "Azure Fundamentals · AZ-900",
+        "issuer": "Microsoft"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "SPOT Award",
+        "issuer": "A.P. Moller–Maersk",
+        "description": "Recognized for contributions to platform and DevOps engineering."
+      },
+      {
+        "title": "Beta Microsoft Learn Student Ambassador",
+        "issuer": "Microsoft",
+        "description": "Advanced from Alpha to Beta milestone and conducted 15+ technical workshops."
+      },
+      {
+        "title": "Best Mentor Award",
+        "issuer": "Microsoft Learn Student Ambassador program",
+        "description": "Recognized for mentoring and supporting fellow students."
+      },
+      {
+        "title": "Digital Tech Knight Award",
+        "issuer": "Cognizant Digital Nurture 2.0",
+        "description": "Recognition received during the Java and Spring Boot skill development program."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let’s build dependable systems together.",
+    "subtitle": "I’m immediately available for a working student role in DevOps, cloud, or backend engineering, up to 20 hours per week during the semester."
+  }
+}

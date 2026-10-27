@@ -487,7 +487,7 @@ if (fs.existsSync(kbPath)) {
 - **Cloud, DevOps & Testing**: ${(skills.cloudDevOpsTesting || []).join(', ')}
 - **AI Frameworks & Tools**: ${(skills.aiFrameworksAndTools || []).join(', ')}
 - **Databases & Vector Stores**: ${(skills.databasesAndVectorStores || []).join(', ')}
-- **Tools & Certifications**: ${(skills.toolsAndCertifications || []).join(', ')}
+- **Tools**: ${(skills.tools || []).join(', ')}
 
 ## Featured Projects
 ${projects.map(proj => `### ${proj.name}

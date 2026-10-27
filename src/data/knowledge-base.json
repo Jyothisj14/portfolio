@@ -125,14 +125,10 @@
       "ChromaDB",
       "Redis"
     ],
-    "toolsAndCertifications": [
+    "tools": [
       "Jira",
       "Confluence",
-      "Agile/Scrum",
-      "CKAD",
-      "Azure Administrator (AZ-104)",
-      "Azure Fundamentals (AZ-900)",
-      "Azure AI (AI-900)"
+      "Agile/Scrum"
     ]
   },
   "projects": [

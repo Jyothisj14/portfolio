@@ -17,7 +17,7 @@
 - **Cloud, DevOps & Testing**: Microsoft Azure, Azure Functions, Kubernetes, Docker, Helm, Flux, Harbor, GitHub Actions, Azure DevOps, CI/CD, Git, Linux, Grafana, Prometheus, Loki, SonarQube, JUnit, Mockito, Pytest, Selenium
 - **AI Frameworks & Tools**: LangChain, LlamaIndex, Ollama (Local LLMs), RAG Architecture, OpenAI API, n8n, Cursor, GitHub Copilot
 - **Databases & Vector Stores**: PostgreSQL, Qdrant, ChromaDB, Redis
-- **Tools & Certifications**: Jira, Confluence, Agile/Scrum, CKAD, Azure Administrator (AZ-104), Azure Fundamentals (AZ-900), Azure AI (AI-900)
+- **Tools**: Jira, Confluence, Agile/Scrum
 
 ## Featured Projects
 ### AI-Assisted GitHub Integration API

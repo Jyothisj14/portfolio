@@ -243,7 +243,7 @@ function initPortfolioAssistant() {
         ['Cloud & DevOps', skills.cloudDevOpsTesting],
         [german ? 'KI-Frameworks & Tools' : 'AI Frameworks & Tools', skills.aiFrameworksAndTools],
         [german ? 'Datenbanken & Vektorspeicher' : 'Databases & Vector Stores', skills.databasesAndVectorStores],
-        [german ? 'Tools & Zertifizierungen' : 'Tools & Certifications', skills.toolsAndCertifications],
+        ['Tools', skills.tools],
         [german ? 'Programmiersprachen' : 'Languages', skills.languages]
       ].filter(([, items]) => items?.length);
       const groups = skillGroups.map(([label, items]) => `• <strong>${label}</strong>: ${items.map(escapeHtml).join(', ')}`).join('<br>');

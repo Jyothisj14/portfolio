@@ -485,7 +485,9 @@ if (fs.existsSync(kbPath)) {
 - **Languages**: ${(skills.languages || []).join(', ')}
 - **Backend & APIs**: ${(skills.backendAndApis || []).join(', ')}
 - **Cloud, DevOps & Testing**: ${(skills.cloudDevOpsTesting || []).join(', ')}
-- **AI & Log Analysis**: ${(skills.aiAndLogAnalysis || []).join(', ')}
+- **AI Frameworks & Tools**: ${(skills.aiFrameworksAndTools || []).join(', ')}
+- **Databases & Vector Stores**: ${(skills.databasesAndVectorStores || []).join(', ')}
+- **Tools & Certifications**: ${(skills.toolsAndCertifications || []).join(', ')}
 
 ## Featured Projects
 ${projects.map(proj => `### ${proj.name}

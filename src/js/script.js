@@ -236,12 +236,14 @@ function initPortfolioAssistant() {
       return german ? `Ausgewählte Projekte:<br>${projects}` : `Selected projects include: ${projects}`;
     }
 
-    if (/skill|stack|technology|tech|kubernetes|java|spring|devops|cloud|kenntnis|fähigkeiten|technologie/.test(text)) {
+    if (/skill|stack|technology|tech|kubernetes|java|spring|devops|cloud|ai|langchain|ollama|rag|llama|qdrant|vector|copilot|typescript|fastapi|node|kenntnis|fähigkeiten|technologie|ki/.test(text)) {
       const skills = kb.skills || {};
       const skillGroups = [
         [german ? 'Backend & APIs' : 'Backend', skills.backendAndApis],
         ['Cloud & DevOps', skills.cloudDevOpsTesting],
-        [german ? 'KI & Log-Analyse' : 'AI & Log Analysis', skills.aiAndLogAnalysis],
+        [german ? 'KI-Frameworks & Tools' : 'AI Frameworks & Tools', skills.aiFrameworksAndTools],
+        [german ? 'Datenbanken & Vektorspeicher' : 'Databases & Vector Stores', skills.databasesAndVectorStores],
+        [german ? 'Tools & Zertifizierungen' : 'Tools & Certifications', skills.toolsAndCertifications],
         [german ? 'Programmiersprachen' : 'Languages', skills.languages]
       ].filter(([, items]) => items?.length);
       const groups = skillGroups.map(([label, items]) => `• <strong>${label}</strong>: ${items.map(escapeHtml).join(', ')}`).join('<br>');
@@ -250,9 +252,9 @@ function initPortfolioAssistant() {
         : `Jyothi works with ${escapeHtml(profile.title)} technologies:<br>${groups}`;
     }
 
-    if (/available|working student|werkstudent|hours|hire|verfügbar|stunden|einstellen/.test(text)) {
-      if (german) return 'Jyothi ist ab sofort für eine Werkstudentinnenstelle in DevOps, Cloud oder Backend-Engineering verfügbar – während des Semesters bis zu 20 Stunden pro Woche.';
-      return 'Jyothi is immediately available for a working student (Werkstudent) role in DevOps, cloud, or backend engineering, up to 20 hours per week during the semester.';
+    if (/available|working student|werkstudent|hours|hire|relocat|verfügbar|umzug|stunden|einstellen/.test(text)) {
+      if (german) return 'Jyothi ist ab sofort für eine Werkstudentinnenstelle in Cloud, DevOps, KI oder Softwareentwicklung bis zu 20 Stunden pro Woche verfügbar und umzugsbereit.';
+      return 'Jyothi is immediately available for a working student role in Cloud, DevOps, AI, or Software Engineering, up to 20 hours per week, and open to relocation.';
     }
 
     if (/workshop|ambassador|beta|award|achievement|botschafter|auszeichnung|erfolg/.test(text)) {
@@ -260,16 +262,16 @@ function initPortfolioAssistant() {
       if (german) {
         return ambassador
           ? `<strong>Beta Microsoft Learn Student Ambassador</strong>: ${ambassador.highlights.map(highlight => escapeHtml(translatePortfolioText(highlight))).join('<br>')}`
-          : 'Jyothi erreichte die Beta-Stufe als Microsoft Learn Student Ambassador und führte mehr als 15 technische Workshops durch.';
+          : 'Jyothi erreichte die Beta-Stufe als Microsoft Learn Student Ambassador und organisierte technische Workshops.';
       }
       return ambassador
         ? `<strong>${escapeHtml(ambassador.role)}</strong>: ${ambassador.highlights.map(escapeHtml).join('<br>')}`
-        : 'Jyothi advanced to Beta Microsoft Learn Student Ambassador and conducted 15+ technical workshops.';
+        : 'Jyothi advanced to Beta Microsoft Learn Student Ambassador and organized technical workshops.';
     }
 
     if (/experience|work|job|maersk|incident|platform|berufserfahrung|erfahrung|arbeit|vorfall|plattform/.test(text)) {
       const experiences = (kb.experience || []).map(job => `<strong>${escapeHtml(job.role)}</strong> at ${escapeHtml(job.company)} (${escapeHtml(job.period)}): ${escapeHtml(job.highlights?.[0] || '')}`).join('<br><br>');
-      if (german) return `Jyothi verfügt über mehr als drei Jahre Erfahrung als Platform- und DevOps-Engineer. Sie studiert Web Engineering an der TU Chemnitz.<br><br>${experiences}`;
+      if (german) return `Jyothi verfügt über mehr als drei Jahre Erfahrung als AI Platform- und DevOps-Engineer. Sie studiert Web Engineering an der TU Chemnitz.<br><br>${experiences}`;
       return `${escapeHtml(profile.summary)}<br><br>${experiences}`;
     }
 

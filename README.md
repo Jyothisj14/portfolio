@@ -1,6 +1,6 @@
 # Jyothi Siddalingappa Jayanna — Portfolio
 
-Portfolio for Jyothi, a Platform and DevOps Engineer and M.Sc. Web Engineering student at TU Chemnitz. The site is a lightweight static website generated with plain HTML, CSS, JavaScript, and Node.js.
+Portfolio for Jyothi, an AI Platform and DevOps Engineer and M.Sc. Web Engineering student at TU Chemnitz. The site is a lightweight static website generated with plain HTML, CSS, JavaScript, and Node.js.
 
 ## Features
 

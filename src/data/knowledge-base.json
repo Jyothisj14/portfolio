@@ -1,9 +1,9 @@
 {
   "profile": {
     "name": "Jyothi Siddalingappa Jayanna",
-    "title": "Platform and DevOps Engineer",
+    "title": "AI Platform and DevOps Engineer",
     "location": "Chemnitz, Germany",
-    "summary": "M.Sc. Web Engineering student at TU Chemnitz with 3+ years of professional experience as a Platform and DevOps Engineer at A.P. Moller–Maersk. Experienced in Java and Spring Boot backend development, Temporal workflows, Kubernetes on Azure, and CI/CD automation. Internal platform tooling she contributed to is used by 8,000+ engineers. Immediately available for a working student role in DevOps, cloud, or backend engineering, up to 20 hours per week during the semester."
+    "summary": "M.Sc. Web Engineering student at TU Chemnitz with 3+ years of professional experience as an AI Platform and DevOps Engineer at A.P. Moller–Maersk. Skilled in Java and Spring Boot backend engineering, Kubernetes on Azure, CI/CD automation, and LLM-driven AI workflows using LangChain, Ollama, and RAG. Internal platform tooling she contributed to is used by 8,000+ engineers. Available immediately for a working student role in Cloud, DevOps, AI, or Software Engineering, up to 20 hours per week, and open to relocation."
   },
   "contact": {
     "email": "jyothisjayanna@gmail.com",
@@ -20,15 +20,14 @@
   "experience": [
     {
       "company": "A.P. Moller–Maersk",
-      "role": "Platform Engineer, Internal Developer Platform team",
+      "role": "Platform Engineer, Internal Developer Platform (IDP) team",
       "location": "Bengaluru, India",
       "period": "Apr 2025 – Sep 2026",
       "highlights": [
         "Built Java, Spring Boot, and Temporal backend workflows for deployment validation and service onboarding on an internal platform used by 8,000+ engineers.",
-        "Built a Temporal deletion workflow that removes service integrations, associated data, and Kubernetes resources.",
-        "Developed Application Catalog and GitHub integrations for service registration, repository creation, custom properties, and CI setup.",
-        "Co-maintained team synchronization across Azure, GitHub, and the organization’s team space.",
-        "Automated CI/CD scaffolding and troubleshot Azure Kubernetes clusters, Helm, and rollouts."
+        "Independently developed a Temporal-based deletion workflow within one month to remove service integrations and Kubernetes resources.",
+        "Developed the Maersk Application Catalog and a GitHub integration service for automated repository creation and CI template configuration.",
+        "Co-maintained MTTS synchronization across Azure, GitHub, and team spaces, and operated and troubleshot Azure Kubernetes clusters."
       ]
     },
     {
@@ -37,11 +36,9 @@
       "location": "Bengaluru, India",
       "period": "Sep 2023 – Mar 2025",
       "highlights": [
-        "Co-maintained Azure DevOps and GitHub Actions pipelines with Docker and Kubernetes.",
-        "Supported Harbor and SonarQube deployments and operations on Kubernetes.",
-        "Created an ARM-based GitHub self-hosted runner and partnered on a migration from Azure DevOps to GitHub.",
-        "Resolved 1,000+ Level 2/3 incidents, wrote Python automation, and ran onboarding sessions twice monthly.",
-        "Received the Maersk SPOT Award."
+        "Co-maintained CI/CD pipelines using Azure DevOps, GitHub Actions, Docker, and Kubernetes, and operated Harbor and SonarQube in Kubernetes clusters.",
+        "Independently created an ARM-based GitHub self-hosted runner and contributed to the organization’s migration from Azure DevOps to GitHub.",
+        "Resolved 1,000+ Level 2/3 incidents, received the Maersk SPOT Award, wrote Python automation scripts, and ran bi-monthly onboarding sessions."
       ]
     },
     {
@@ -59,26 +56,40 @@
       "location": "Bengaluru, India",
       "period": "Aug 2021 – May 2024",
       "highlights": [
-        "Advanced from Alpha to Beta milestone and conducted 15+ technical workshops on Java, web development, and cloud computing.",
+        "Advanced from Alpha to Beta milestone and organized technical workshops on Java, web development, and cloud computing.",
         "Completed hands-on Azure assignments and received the Best Mentor award."
+      ]
+    },
+    {
+      "company": "Cognizant",
+      "role": "Digital Nurture 2.0 Certified Skill Development Trainee",
+      "location": "Bengaluru, India",
+      "period": "Mar 2022 – Jun 2022",
+      "highlights": [
+        "Completed Java and Spring Boot assignments on object-oriented design and received the Digital Tech Knight award."
       ]
     }
   ],
   "skills": {
     "languages": [
       "Java",
-      "Python",
-      "JavaScript"
+      "Python (scripting and automation)",
+      "JavaScript",
+      "TypeScript",
+      "HTML/CSS"
     ],
     "backendAndApis": [
       "Spring Boot",
       "REST APIs",
+      "GraphQL",
       "Temporal",
       "Kafka",
-      "PostgreSQL"
+      "FastAPI",
+      "Node.js"
     ],
     "cloudDevOpsTesting": [
       "Microsoft Azure",
+      "Azure Functions",
       "Kubernetes",
       "Docker",
       "Helm",
@@ -87,6 +98,8 @@
       "GitHub Actions",
       "Azure DevOps",
       "CI/CD",
+      "Git",
+      "Linux",
       "Grafana",
       "Prometheus",
       "Loki",
@@ -94,23 +107,41 @@
       "JUnit",
       "Mockito",
       "Pytest",
-      "Selenium",
-      "Linux"
+      "Selenium"
     ],
-    "aiAndLogAnalysis": [
-      "Ollama",
-      "Local LLM integration",
-      "Language-agnostic log analysis",
-      "Root-cause analysis"
+    "aiFrameworksAndTools": [
+      "LangChain",
+      "LlamaIndex",
+      "Ollama (Local LLMs)",
+      "RAG Architecture",
+      "OpenAI API",
+      "n8n",
+      "Cursor",
+      "GitHub Copilot"
+    ],
+    "databasesAndVectorStores": [
+      "PostgreSQL",
+      "Qdrant",
+      "ChromaDB",
+      "Redis"
+    ],
+    "toolsAndCertifications": [
+      "Jira",
+      "Confluence",
+      "Agile/Scrum",
+      "CKAD",
+      "Azure Administrator (AZ-104)",
+      "Azure Fundamentals (AZ-900)",
+      "Azure AI (AI-900)"
     ]
   },
   "projects": [
     {
-      "name": "GitHub Integration API",
-      "description": "Backend service that aggregates GitHub data through GraphQL and REST APIs to visualize contributor activity and repository statistics.",
+      "name": "AI-Assisted GitHub Integration API",
+      "description": "Java and Spring Boot backend service using LangChain, GraphQL, and REST APIs to analyze developer activity metrics and automate repository governance.",
       "highlights": [
-        "Built an API using Java and Spring Boot.",
-        "Combined GraphQL and REST data to present contributor activity and repository statistics."
+        "Built a Java and Spring Boot backend using LangChain, GraphQL, and REST APIs.",
+        "Uses AI agent tooling to analyze developer activity metrics and automate repository governance."
       ]
     },
     {
@@ -123,11 +154,11 @@
     },
     {
       "name": "LogLens: AI-Powered Log Diagnosis & Learning",
-      "description": "A completed, language-agnostic log analysis tool for logs from any programming language or technology stack. LogLens identifies likely root causes, explains what went wrong, and provides practical solutions alongside relevant videos and links to help anyone understand and learn from the issue. It combines rule-based detection with a local Ollama LLM; logs stay on-device and secrets are redacted before analysis.",
+      "description": "An open-source, language-agnostic log analysis tool that uses a LangChain and Qdrant RAG pipeline with local Ollama LLMs to identify root causes. LogLens explains what went wrong and offers practical solutions, related videos, and learning links so anyone can understand the issue. It sanitizes secrets locally before analysis.",
       "highlights": [
-        "Analyzes logs across programming languages and technology stacks to identify likely root causes.",
-        "Explains what went wrong and provides practical solutions, relevant videos, and links for further learning.",
-        "Uses a local Ollama LLM and rule-based detection; redacts secrets and keeps logs on the user's machine."
+        "Developed an open-source, language-agnostic log analysis tool with a LangChain and Qdrant RAG pipeline.",
+        "Identifies root causes and sanitizes secrets locally using local Ollama LLMs.",
+        "Explains the issue and offers solutions, related videos, and links to help users learn."
       ]
     }
   ],
@@ -158,7 +189,7 @@
     {
       "title": "Beta Microsoft Learn Student Ambassador",
       "issuer": "Microsoft",
-      "description": "Advanced from Alpha to Beta milestone and conducted 15+ technical workshops."
+      "description": "Advanced from Alpha to Beta milestone and organized technical workshops on Java, web development, and cloud computing."
     },
     {
       "title": "Best Mentor Award",
@@ -172,10 +203,7 @@
     }
   ],
   "languages": [
-    "Kannada",
-    "English",
-    "Hindi",
-    "Telugu",
-    "German (A2, in progress)"
+    "English: Fluent",
+    "German: A2 (in progress)"
   ]
 }

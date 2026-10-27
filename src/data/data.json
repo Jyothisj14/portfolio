@@ -2,14 +2,14 @@
   "profile": {
     "name": "Jyothi Siddalingappa Jayanna",
     "initials": "JSJ",
-    "title": "Platform & DevOps Engineer",
+    "title": "AI Platform & DevOps Engineer",
     "location": "Chemnitz, Germany",
-    "metaDescription": "Jyothi Siddalingappa Jayanna is a platform and DevOps engineer in Chemnitz, studying Web Engineering and experienced with Kubernetes, Azure, Java, and Spring Boot.",
-    "status": "Immediately available for Werkstudent roles · up to 20 hours/week",
-    "eyebrow": "Platform & DevOps Engineer · Chemnitz, Germany",
+    "metaDescription": "Jyothi Siddalingappa Jayanna is an AI Platform and DevOps Engineer in Chemnitz with 3+ years of experience building backend services, cloud platforms, and LLM-driven AI workflows.",
+    "status": "Available immediately · Up to 20 hrs/week · Open to relocation",
+    "eyebrow": "AI Platform & DevOps Engineer · Chemnitz, Germany",
     "heroHeadline": "Jyothi Siddalingappa Jayanna",
-    "heroRole": "Building reliable platforms, cloud infrastructure, and backend services.",
-    "heroSub": "M.Sc. Web Engineering student at TU Chemnitz with <strong>3+ years of experience</strong> at A.P. Moller–Maersk. I build with <strong>Java, Spring Boot, Kubernetes, and Azure</strong>, and have delivered internal platform tooling used by <strong>8,000+ engineers</strong>.",
+    "heroRole": "Building AI-powered platforms, cloud infrastructure, and backend services.",
+    "heroSub": "M.Sc. Web Engineering student at TU Chemnitz with <strong>3+ years of experience</strong> at A.P. Moller–Maersk. I build backend services and cloud platforms, and develop <strong>LLM-driven AI workflows with LangChain, Ollama, and RAG</strong>. Internal platform tooling I contributed to is used by <strong>8,000+ engineers</strong>. I’m open to relocation.",
     "photo": "assets/Jyothi.JPG",
     "resume": "assets/Jyothi_SJ_CV.pdf",
     "email": "jyothisjayanna@gmail.com",
@@ -22,8 +22,8 @@
   "about": {
     "eyebrow": "About me",
     "paragraphs": [
-      "I’m a platform and DevOps engineer with more than three years of professional experience building backend workflows and developer tooling at A.P. Moller–Maersk. My work spans Java and Spring Boot services, Temporal workflows, Kubernetes on Azure, and CI/CD automation.",
-      "I’m currently pursuing an M.Sc. in Web Engineering at TU Chemnitz. I enjoy making complex engineering workflows easier for teams, supporting production systems, and helping engineers get started with confidence."
+      "I’m an AI Platform and DevOps engineer with more than three years of professional experience building backend workflows and developer tooling at A.P. Moller–Maersk. My work spans Java and Spring Boot services, Temporal workflows, Kubernetes on Azure, CI/CD automation, and LLM-driven AI workflows using LangChain, Ollama, and RAG.",
+      "I’m currently pursuing an M.Sc. in Web Engineering at TU Chemnitz and seeking a working student role in Cloud, DevOps, AI, or Software Engineering. I’m available immediately for up to 20 hours per week and open to relocation."
     ],
     "stats": [
       {
@@ -31,8 +31,8 @@
         "label": "Engineers using platform tooling"
       },
       {
-        "value": "15+",
-        "label": "Technical workshops conducted"
+        "value": "LangChain + RAG",
+        "label": "AI workflow stack"
       },
       {
         "value": "3+",
@@ -42,19 +42,18 @@
   },
   "experience": {
     "eyebrow": "Experience",
-    "title": "Platform engineering grounded in production experience.",
+    "title": "Platform and AI engineering grounded in production experience.",
     "subtitle": "From building workflows and integrations for an internal developer platform to sharing cloud and software engineering knowledge through workshops.",
     "jobs": [
       {
-        "role": "Platform Engineer · Internal Developer Platform",
+        "role": "Platform Engineer · Internal Developer Platform (IDP) team",
         "company": "A.P. Moller–Maersk · Bengaluru, India",
         "date": "Apr 2025 — Sep 2026",
         "highlights": [
           "Built Java, Spring Boot, and Temporal backend workflows for deployment validation and service onboarding on an internal platform used by 8,000+ engineers.",
-          "Independently delivered a Temporal deletion workflow in one month to remove service integrations, associated data, and Kubernetes resources.",
-          "Built a Maersk Application Catalog integration to register services and a GitHub integration that creates repositories, applies custom properties, and configures CI from templates.",
-          "Co-maintained MTTS, synchronizing teams across Azure, GitHub, and the organization’s team space.",
-          "Automated CI/CD pipeline scaffolding and operated Azure Kubernetes clusters, troubleshooting Helm releases and rollouts."
+          "Independently developed a Temporal-based deletion workflow within one month to remove service integrations and Kubernetes resources.",
+          "Developed the Maersk Application Catalog and a GitHub integration service for automated repository creation and CI template configuration.",
+          "Co-maintained MTTS synchronization across Azure, GitHub, and team spaces, and operated and troubleshot Azure Kubernetes clusters."
         ]
       },
       {
@@ -62,11 +61,9 @@
         "company": "A.P. Moller–Maersk · Bengaluru, India",
         "date": "Sep 2023 — Mar 2025",
         "highlights": [
-          "Co-maintained CI/CD pipelines with Azure DevOps, GitHub Actions, Docker, and Kubernetes.",
-          "Supported deployment, upgrades, maintenance, and day-to-day operation of Harbor and SonarQube in Kubernetes clusters.",
-          "Created an ARM-based GitHub self-hosted runner and partnered on the organization’s migration from Azure DevOps to GitHub.",
-          "Resolved 1,000+ Level 2/3 incidents, wrote Python automation for operations and integration testing, and received the Maersk SPOT Award.",
-          "Led onboarding sessions twice a month for new team members."
+          "Co-maintained CI/CD pipelines using Azure DevOps, GitHub Actions, Docker, and Kubernetes, and operated Harbor and SonarQube in Kubernetes clusters.",
+          "Independently created an ARM-based GitHub self-hosted runner and contributed to the organization’s migration from Azure DevOps to GitHub.",
+          "Resolved 1,000+ Level 2/3 incidents, received the Maersk SPOT Award, wrote Python automation scripts, and ran bi-monthly onboarding sessions."
         ]
       },
       {
@@ -82,7 +79,7 @@
         "company": "Microsoft · Bengaluru, India",
         "date": "Aug 2021 — May 2024",
         "highlights": [
-          "Advanced from Alpha to Beta milestone and conducted 15+ technical workshops on Java, web development, and cloud computing.",
+          "Advanced from Alpha to Beta milestone and organized technical workshops on Java, web development, and cloud computing.",
           "Completed hands-on Azure assignments and received the Best Mentor award."
         ]
       },
@@ -98,40 +95,66 @@
   },
   "skills": {
     "eyebrow": "Skills",
-    "title": "Tools I use to build and operate platforms.",
-    "subtitle": "A practical mix of backend engineering, cloud infrastructure, automation, and production operations.",
+    "title": "Tools I use to build AI-powered platforms and reliable software.",
+    "subtitle": "Backend and AI engineering, vector databases, cloud infrastructure, automation, and production operations.",
     "categories": [
       {
-        "name": "Backend & Programming",
+        "name": "Programming Languages",
         "items": [
           "Java",
-          "Spring Boot",
-          "REST APIs",
-          "Temporal",
-          "Kafka",
-          "Python automation",
-          "PostgreSQL"
+          "Python (scripting and automation)",
+          "JavaScript",
+          "TypeScript",
+          "HTML/CSS"
         ]
       },
       {
-        "name": "Cloud & Containers",
+        "name": "Backend Frameworks & APIs",
+        "items": [
+          "Spring Boot",
+          "REST APIs",
+          "GraphQL",
+          "Temporal",
+          "Kafka",
+          "FastAPI",
+          "Node.js"
+        ]
+      },
+      {
+        "name": "AI Frameworks & Tools",
+        "items": [
+          "LangChain",
+          "LlamaIndex",
+          "Ollama (Local LLMs)",
+          "RAG Architecture",
+          "OpenAI API",
+          "n8n",
+          "Cursor",
+          "GitHub Copilot"
+        ]
+      },
+      {
+        "name": "Databases & Vector Stores",
+        "items": [
+          "PostgreSQL",
+          "Qdrant",
+          "ChromaDB",
+          "Redis"
+        ]
+      },
+      {
+        "name": "Cloud & DevOps",
         "items": [
           "Microsoft Azure",
+          "Azure Functions",
           "Kubernetes",
           "Docker",
           "Helm",
           "Flux",
           "Harbor",
-          "Nexus"
-        ]
-      },
-      {
-        "name": "CI/CD & Platform",
-        "items": [
           "GitHub Actions",
           "Azure DevOps",
-          "CI/CD automation",
-          "Internal developer platforms",
+          "CI/CD",
           "Git",
           "Linux"
         ]
@@ -150,25 +173,15 @@
         ]
       },
       {
-        "name": "Web, Tools & Collaboration",
+        "name": "Tools & Certifications",
         "items": [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "macOS",
           "Jira",
           "Confluence",
-          "Miro",
-          "Agile & Scrum"
-        ]
-      },
-      {
-        "name": "AI & Log Analysis",
-        "items": [
-          "Ollama",
-          "Local LLM integration",
-          "Language-agnostic log analysis",
-          "Root-cause analysis"
+          "Agile/Scrum",
+          "CKAD",
+          "Azure Administrator (AZ-104)",
+          "Azure Fundamentals (AZ-900)",
+          "Azure AI (AI-900)"
         ]
       }
     ]
@@ -176,16 +189,18 @@
   "projects": {
     "eyebrow": "Projects",
     "title": "Selected engineering projects.",
-    "subtitle": "Backend, cloud, and web projects that bring together reliable services and useful user experiences.",
+    "subtitle": "AI, backend, cloud, and web projects that pair dependable engineering with practical, learning-focused experiences.",
     "items": [
       {
-        "title": "GitHub Integration API",
-        "description": "Backend service that aggregates GitHub data through GraphQL and REST APIs to visualize contributor activity and repository statistics.",
+        "title": "AI-Assisted GitHub Integration API",
+        "description": "Java and Spring Boot backend service using LangChain, GraphQL, and REST APIs to analyze developer activity metrics and automate repository governance.",
         "tags": [
           "Java",
           "Spring Boot",
+          "LangChain",
           "GraphQL",
-          "REST APIs"
+          "REST APIs",
+          "AI agents"
         ]
       },
       {
@@ -210,12 +225,14 @@
       },
       {
         "title": "LogLens: AI-Powered Log Diagnosis & Learning",
-        "description": "A completed, language-agnostic log analysis tool for logs from any programming language or technology stack. LogLens identifies likely root causes, explains what went wrong, and provides practical solutions alongside relevant videos and links to help anyone understand and learn from the issue. It combines rule-based detection with a local Ollama LLM; logs stay on-device and secrets are redacted before analysis.",
+        "description": "An open-source, language-agnostic log analysis tool that uses a LangChain and Qdrant RAG pipeline with local Ollama LLMs to identify root causes. LogLens explains what went wrong and offers practical solutions, related videos, and learning links so anyone can understand the issue. It sanitizes secrets locally before analysis.",
         "tags": [
           "Language-agnostic log analysis",
           "Root-cause analysis",
-          "Learning resources",
+          "LangChain",
+          "Qdrant",
           "Ollama",
+          "RAG",
           "Docker",
           "GitHub Actions",
           "Local LLMs"
@@ -227,11 +244,8 @@
     "eyebrow": "Education & recognition",
     "title": "Learning, certifications, and recognition.",
     "languages": [
-      "Kannada",
-      "English",
-      "Hindi",
-      "Telugu",
-      "German (A2, in progress)"
+      "English: Fluent",
+      "German: A2 (in progress)"
     ],
     "education": [
       {
@@ -273,7 +287,7 @@
       {
         "title": "Beta Microsoft Learn Student Ambassador",
         "issuer": "Microsoft",
-        "description": "Advanced from Alpha to Beta milestone and conducted 15+ technical workshops."
+        "description": "Advanced from Alpha to Beta milestone and organized technical workshops on Java, web development, and cloud computing."
       },
       {
         "title": "Best Mentor Award",
@@ -289,7 +303,7 @@
   },
   "contact": {
     "eyebrow": "Contact",
-    "title": "Let’s build dependable systems together.",
-    "subtitle": "I’m immediately available for a working student role in DevOps, cloud, or backend engineering, up to 20 hours per week during the semester."
+    "title": "Let’s build AI-powered platforms and dependable systems together.",
+    "subtitle": "I’m immediately available for a working student role in Cloud, DevOps, AI, or Software Engineering, up to 20 hours per week, and open to relocation."
   }
 }

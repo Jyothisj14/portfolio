@@ -77,6 +77,16 @@ section { padding: 96px 24px; }
   margin-bottom: 16px;
   box-shadow: 0 4px 12px var(--shadow);
 }
+.status-pill > span::before {
+  content: "✓";
+  color: #16803c;
+  font-family: var(--font-body);
+  font-weight: 700;
+  margin-right: 0.45em;
+}
+html[data-theme="dark"] .status-pill > span::before {
+  color: #4ade80;
+}
 .eyebrow {
   font-family: var(--font-mono);
   font-size: 0.78rem;

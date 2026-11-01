@@ -188,8 +188,8 @@
     "subtitle": "AI, backend, cloud, and web projects that pair dependable engineering with practical, learning-focused experiences.",
     "items": [
       {
-        "title": "AI-Assisted GitHub Integration API",
-        "description": "Java and Spring Boot backend service using LangChain, GraphQL, and REST APIs to analyze developer activity metrics and automate repository governance.",
+        "title": "GitHub Integration API",
+        "description": "Developed at A.P. Moller–Maersk, this Java and Spring Boot backend service uses LangChain, GraphQL, and REST APIs to analyze developer activity metrics and automate repository governance.",
         "tags": [
           "Java",
           "Spring Boot",
@@ -202,6 +202,7 @@
       {
         "title": "Tokenisation of Real Estate",
         "description": "Blockchain-based platform for fractional real-estate ownership, using Ethereum for ownership records, MetaMask for wallet interactions, and IPFS for decentralized storage.",
+        "link": "https://docs.google.com/presentation/d/1wbCTqhy_31Vp1hemcscrVFxKsIKyHrfHQVo-pj-meSE/edit?usp=sharing",
         "tags": [
           "Ethereum",
           "MetaMask",
@@ -212,6 +213,7 @@
       {
         "title": "Campus Canteen",
         "description": "Serverless web application for college canteen operations, with a browser-based interface and Azure Functions backend.",
+        "github": "https://github.com/Jyothisj14/Campuscanteen",
         "tags": [
           "HTML",
           "CSS",
@@ -221,17 +223,24 @@
       },
       {
         "title": "LogLens: AI-Powered Log Diagnosis & Learning",
-        "description": "An open-source, language-agnostic log analysis tool that uses a LangChain and Qdrant RAG pipeline with local Ollama LLMs to identify root causes. LogLens explains what went wrong and offers practical solutions, related videos, and learning links so anyone can understand the issue. It sanitizes secrets locally before analysis.",
+        "description": "A Python-based troubleshooting assistant that sanitizes application and infrastructure logs, then uses a locally hosted Llama 3.2 model through Ollama to produce structured diagnoses and fixes. LangChain and FastEmbed (BAAI/bge-small-en-v1.5) power optional Qdrant similarity search for historical errors. A search-based resource discovery engine finds and ranks documentation, courses, and YouTube videos, then checks link availability.",
+        "github": "https://github.com/Jyothisj14/LogLens",
         "tags": [
+          "Python",
           "Language-agnostic log analysis",
           "Root-cause analysis",
           "LangChain",
-          "Qdrant",
+          "FastEmbed (BAAI/bge-small-en-v1.5)",
+          "Qdrant (optional)",
           "Ollama",
-          "RAG",
+          "Llama 3.2",
+          "DDGS",
+          "yt-dlp",
+          "Requests",
+          "JSON",
+          "Regular expressions",
           "Docker",
-          "GitHub Actions",
-          "Local LLMs"
+          "GitHub Actions"
         ]
       }
     ]

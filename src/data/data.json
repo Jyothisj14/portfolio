@@ -212,13 +212,27 @@
       },
       {
         "title": "Campus Canteen",
-        "description": "Serverless web application for college canteen operations, with a browser-based interface and Azure Functions backend.",
+        "description": "A serverless web app for college canteen operations, pairing an HTML, CSS, and JavaScript interface with Azure Functions for backend functionality.",
         "github": "https://github.com/Jyothisj14/Campuscanteen",
         "tags": [
           "HTML",
           "CSS",
           "JavaScript",
           "Azure Functions"
+        ]
+      },
+      {
+        "title": "Personal Portfolio Website",
+        "description": "A responsive portfolio built with HTML, CSS, and JavaScript. A Node.js build script generates the static page from structured JSON content, with English and German language options and light and dark themes.",
+        "github": "https://github.com/Jyothisj14/portfolio",
+        "demo": "https://jyothisj14.github.io/portfolio/",
+        "tags": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Node.js",
+          "Static site generation",
+          "GitHub Pages"
         ]
       },
       {

@@ -146,7 +146,16 @@
     },
     {
       "name": "Campus Canteen",
-      "description": "Serverless canteen operations web application with an HTML, CSS, and JavaScript frontend and Azure Functions backend."
+      "description": "A serverless web app for college canteen operations, pairing an HTML, CSS, and JavaScript interface with Azure Functions for backend functionality."
+    },
+    {
+      "name": "Personal Portfolio Website",
+      "description": "A responsive portfolio built with HTML, CSS, and JavaScript. A Node.js build script generates the static page from structured JSON content, with English and German language options and light and dark themes.",
+      "highlights": [
+        "Built a responsive portfolio with HTML, CSS, and JavaScript.",
+        "Uses a Node.js build script to generate static pages from JSON content.",
+        "Includes English and German language options and light and dark themes."
+      ]
     },
     {
       "name": "LogLens: AI-Powered Log Diagnosis & Learning",
